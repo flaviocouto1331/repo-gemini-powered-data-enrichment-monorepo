@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "fn_jogos_gemini": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7027",
+      "launchBrowser": false
+    }
+  }
+}

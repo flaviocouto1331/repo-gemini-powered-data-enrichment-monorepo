@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37710.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql", "sql", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		sql\scripts.sql = sql\scripts.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{68A4335F-97DD-4BC5-81E3-A21F79804B11}"
+	ProjectSection(SolutionItems) = preProject
+		docker\docker-compose-azure-function.yml = docker\docker-compose-azure-function.yml
+		docker\docker-compose-sql.yml = docker\docker-compose-sql.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api_jogos", "api_jogos\api_jogos.csproj", "{307F36EB-6840-8D30-265E-610C66EA628A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fn_jogos_gemini", "fn_jogos_gemini\fn_jogos_gemini.csproj", "{4FA83DC9-45A2-42E9-83BA-28BFDF443DE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{307F36EB-6840-8D30-265E-610C66EA628A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307F36EB-6840-8D30-265E-610C66EA628A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307F36EB-6840-8D30-265E-610C66EA628A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307F36EB-6840-8D30-265E-610C66EA628A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA83DC9-45A2-42E9-83BA-28BFDF443DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA83DC9-45A2-42E9-83BA-28BFDF443DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA83DC9-45A2-42E9-83BA-28BFDF443DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA83DC9-45A2-42E9-83BA-28BFDF443DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCDCF81E-3572-418C-B65D-5415D2F43918}
+	EndGlobalSection
+EndGlobal
